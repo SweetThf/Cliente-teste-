@@ -1,0 +1,18 @@
+SITE DA BARBEARIA LOURENÇO — pasta para o Cloudflare Pages
+
+O que tem aqui:
+- index.html        (o site)
+- favicon.png       (ícone da aba do navegador)
+- apple-touch-icon.png (ícone ao salvar na tela inicial do iPhone)
+- og-image.jpg      (imagem que aparece ao compartilhar o link no WhatsApp/Instagram)
+
+Antes de subir:
+1. Abra o index.html num editor de texto, procure "COLE_AQUI" e cole o firebaseConfig
+   do projeto Firebase (o mesmo do convite de aniversário).
+2. Confira as regras do Firestore (veja as instruções que já te passei antes).
+
+Como subir no Cloudflare Pages:
+1. dash.cloudflare.com → Workers & Pages → Create → Pages → Upload assets.
+2. Arraste TODOS os arquivos desta pasta (não a pasta em si, os arquivos de dentro).
+3. Cloudflare te dá um link tipo nomeousado.pages.dev — já funciona.
+4. Se quiser seu domínio próprio, é em Custom domains dentro do mesmo projeto.
